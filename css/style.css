@@ -1,5 +1,6 @@
 .bgCodigo {
-  background: #282C34;
+  /*background: #282C34;*/
+  background: red;
   padding: .5rem;
   padding-bottom: 0;
   color: white;
