@@ -191,7 +191,7 @@ h1,h2{
 		padding: 1rem;
 		width: 30%;
 		float: left;
-		background: red;
+		background: blue;
 
 		h3{
 			font-size: 2rem;
@@ -314,7 +314,7 @@ h1,h2{
 	margin-left: auto;
 	width: 100%;
 	min-width: 320px;
-	background-color:#f1f1f1;
+	background-color:blue;//#f1f1f1;
 /* INICIO NAV BAR FOR DESKTOP */
 	nav#navBar div[class^="col-"], nav#navBar ul[class^="col-"]{
 		padding: .5rem 0;
