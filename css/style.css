@@ -576,8 +576,9 @@ h1, h2 {
   background-image: url("../img/code2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 47px;
+  background-position: 0 35px;
   height: 300px;
+  margin-bottom: 2rem;
 }
 
 #main #cabecera h2 {
@@ -703,7 +704,7 @@ h1, h2 {
   }
   #main #resumen-articulo #bienvenida {
     width: 70%;
-    margin: 1rem auto;
+    margin: 2rem;
   }
   #main #resumen-articulo #bienvenida h2 {
     font-size: 3rem;

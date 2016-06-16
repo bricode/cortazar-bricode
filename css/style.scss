@@ -572,8 +572,9 @@ h1,h2{
 		background-image: url("../img/code2.jpeg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 0 47px;
+		background-position: 0 35px;
 		height: 300px;
+		margin-bottom: 2rem;
 		h2{
 			text-align: center;
 			color: white;
@@ -689,7 +690,7 @@ h1,h2{
 			float: left;
 			#bienvenida{
 				width: 70%;
-				margin: 1rem auto;
+				margin: 2rem;
 				h2{
 					font-size: 3rem;
 					text-align: center;
