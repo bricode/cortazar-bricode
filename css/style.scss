@@ -575,6 +575,9 @@ h1,h2{
 		background-position: 0 35px;
 		height: 300px;
 		margin-bottom: 2rem;
+		@media only screen and(min-width: 320px){
+
+		}
 		h2{
 			text-align: center;
 			color: white;
@@ -668,9 +671,12 @@ h1,h2{
 		#cabecera{
 			background-size: contain;
 			height: 230px;
+			background-position: 0 20px;
+
 			@media only screen and(min-width: 455px) and(max-width: 640px){
 				background-size: cover;
 				height: 270px;
+
 			}
 			h2{
 				font-size: 2rem;
@@ -689,8 +695,8 @@ h1,h2{
 			width: 70%;
 			float: left;
 			#bienvenida{
-				width: 70%;
-				margin: 2rem;
+				width: 100%;
+
 				h2{
 					font-size: 3rem;
 					text-align: center;
@@ -792,4 +798,13 @@ h1,h2{
       }
     }
   }
+}
+#bienvenida{
+	margin: 2rem;
+	margin-bottom: 4rem;
+}
+#titulo-art{
+	margin: 2rem;
+	// text-align: center;
+	font-size: 2rem;
 }

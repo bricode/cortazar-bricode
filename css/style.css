@@ -674,6 +674,7 @@ h1, h2 {
   #main #cabecera {
     background-size: contain;
     height: 230px;
+    background-position: 0 20px;
   }
 }
 
@@ -703,8 +704,7 @@ h1, h2 {
     float: left;
   }
   #main #resumen-articulo #bienvenida {
-    width: 70%;
-    margin: 2rem;
+    width: 100%;
   }
   #main #resumen-articulo #bienvenida h2 {
     font-size: 3rem;
@@ -806,4 +806,14 @@ h1, h2 {
 .menu-toggle ul li a:hover {
   background: #282C34;
   color: white;
+}
+
+#bienvenida {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+#titulo-art {
+  margin: 2rem;
+  font-size: 2rem;
 }
