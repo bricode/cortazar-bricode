@@ -191,13 +191,13 @@ h1, h2 {
 #principal {
   padding: 1rem;
   overflow: hidden;
+  background: white;
 }
 
 #principal #sobre-mi {
   padding: 1rem;
   width: 30%;
   float: left;
-  background: blue;
 }
 
 #principal #sobre-mi h3 {
@@ -220,7 +220,6 @@ h1, h2 {
 #principal #info {
   padding: 1rem;
   width: 60%;
-  background: initial;
   float: right;
 }
 
@@ -748,6 +747,7 @@ h1, h2 {
   padding: 2rem 20%;
   font-size: .8rem;
   background: #9DB63B;
+  margin-top: 2rem;
 }
 
 #main #contacto p {

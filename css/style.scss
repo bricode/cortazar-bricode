@@ -187,11 +187,13 @@ h1,h2{
 #principal{
 	padding: 1rem;
 	overflow: hidden;
+	background: white;
+
 	#sobre-mi{
 		padding: 1rem;
 		width: 30%;
 		float: left;
-		background: blue;
+
 
 		h3{
 			font-size: 2rem;
@@ -217,7 +219,7 @@ h1,h2{
 		// @extend #sobre-mi;
 		padding: 1rem;
 		width: 60%;
-		background: initial;
+
 		float: right;
 		.info-caja{
 			background: white;
@@ -737,6 +739,7 @@ h1,h2{
 		padding: 2rem 20%;
 		font-size: .8rem;
 		background: $verdeKhan;
+		margin-top: 2rem;
 		p{
 			text-align: center;
 			color: #444;
