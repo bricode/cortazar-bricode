@@ -632,7 +632,7 @@ h1, h2 {
 
 #main #resumen-articulo .articulo div.articulo-datos h2 a {
   font-size: 1.3rem;
-  color: #9DB63B;
+  color: #9DB63B !important;
 }
 
 #main #resumen-articulo .articulo div.articulo-datos p a {
