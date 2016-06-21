@@ -617,10 +617,6 @@ h1,h2{
 		width: 100%;
 		margin-top: 1rem;
 		padding: 1rem;
-
-		.articulo-img{
-			display: none;
-		}
 		.articulo{
 			overflow: hidden;
 			padding: 1rem;
@@ -649,6 +645,13 @@ h1,h2{
 					margin-top: 10px;
 					p a{
 						color:$links;
+					}
+					div.img-resultado{
+						width: 50%;
+						img{
+							text-align: center;
+							width: 100%;
+						}
 					}
 				}
 				.articulo-pie{

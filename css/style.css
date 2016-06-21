@@ -620,10 +620,6 @@ h1, h2 {
   padding: 1rem;
 }
 
-#main #resumen-articulo .articulo-img {
-  display: none;
-}
-
 #main #resumen-articulo .articulo {
   overflow: hidden;
   padding: 1rem;
@@ -655,6 +651,15 @@ h1, h2 {
 
 #main #resumen-articulo .articulo div.articulo-datos article.articulo-contenido p a {
   color: #1B95E0;
+}
+
+#main #resumen-articulo .articulo div.articulo-datos article.articulo-contenido div.img-resultado {
+  width: 50%;
+}
+
+#main #resumen-articulo .articulo div.articulo-datos article.articulo-contenido div.img-resultado img {
+  text-align: center;
+  width: 100%;
 }
 
 #main #resumen-articulo .articulo div.articulo-datos .articulo-pie {
